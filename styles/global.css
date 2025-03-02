@@ -1,0 +1,12 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000; /* or #111 */
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden; /* if you want to avoid horizontal scroll */
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
