@@ -3,9 +3,7 @@ import React from 'react';
 
 export default function ModelSelector({ onModelChange }) {
   const models = [
-    { id: "ibm/granite-3-8b-instruct", name: "IBM Granite 3-8B Instruct" },
-    { id: "starcoder", name: "StarCoder" },
-    { id: "codellama", name: "Code LLaMA" },
+    { id: "gpt-4o", name: "GPT 4" },
   ];
 
   return (
