@@ -50,7 +50,7 @@ async function fetchRepoContents(owner, repo, branch = 'main', path = '') {
   // The GitHub Contents API endpoint for a given path:
   // https://api.github.com/repos/:owner/:repo/contents/:path?ref=:branch
   const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
-  const GITHUB_TOKEN = "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";
+  const GITHUB_TOKEN = "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";
 
 
   const response = await fetch(apiUrl, {
