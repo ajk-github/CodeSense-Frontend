@@ -218,16 +218,16 @@ export default function GetStartedModal({ onClose, onProceed }) {
         <h2 style={styles.title}>Add New Project</h2>
 
         <div style={styles.optionGroup}>
-          <label style={styles.radioLabel}>
-            <input
-              type="radio"
-              value="github"
-              checked={option === "github"}
-              onChange={handleRadioChange}
-              style={styles.radioInput}
-            />
-            <span style={styles.radioText}>Import from URL</span>
-          </label>
+          // <label style={styles.radioLabel}>
+          //   <input
+          //     type="radio"
+          //     value="github"
+          //     checked={option === "github"}
+          //     onChange={handleRadioChange}
+          //     style={styles.radioInput}
+          //   />
+          //   <span style={styles.radioText}>Import from URL</span>
+          // </label>
 
           <label style={styles.radioLabel}>
             <input
