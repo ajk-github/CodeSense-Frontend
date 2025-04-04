@@ -50,7 +50,7 @@ async function fetchRepoContents(owner, repo, branch = 'main', path = '') {
   // The GitHub Contents API endpoint for a given path:
   // https://api.github.com/repos/:owner/:repo/contents/:path?ref=:branch
   const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
-  const GITHUB_TOKEN = "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";
+  const GITHUB_TOKEN = "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";
 
 
   const response = await fetch(apiUrl, {
@@ -218,7 +218,7 @@ export default function GetStartedModal({ onClose, onProceed }) {
         <h2 style={styles.title}>Add New Project</h2>
 
         <div style={styles.optionGroup}>
-          <label style={styles.radioLabel}>
+          {/* <label style={styles.radioLabel}>
             <input
               type="radio"
               value="github"
@@ -227,7 +227,7 @@ export default function GetStartedModal({ onClose, onProceed }) {
               style={styles.radioInput}
             />
             <span style={styles.radioText}>Import from URL</span>
-          </label>
+          </label> */}
 
           <label style={styles.radioLabel}>
             <input
